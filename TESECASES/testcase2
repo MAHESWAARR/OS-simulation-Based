@@ -1,12 +1,14 @@
 SCHEDULING STARTS HERE 
 
-Enter the total no of processes :3
+Enter the total no of processes :4
 Please enter the BURST TIME of the Process    (1) : 1
 Please enter the ARRIVAL TIME of the Process  (1) : 1
 Please enter the BURST TIME of the Process    (2) : 2
 Please enter the ARRIVAL TIME of the Process  (2) : 2
 Please enter the BURST TIME of the Process    (3) : 3
 Please enter the ARRIVAL TIME of the Process  (3) : 3
+Please enter the BURST TIME of the Process    (4) : 4
+Please enter the ARRIVAL TIME of the Process  (4) : 4
 YOUR ENTERED VALUES ARE :
 
 
@@ -23,6 +25,11 @@ YOUR ENTERED VALUES ARE :
 	Process          : (3)  
 	Arrival Time     : 3
 	Burst Time       : 3
+
+
+	Process          : (4)  
+	Arrival Time     : 4
+	Burst Time       : 4
 
 
 	 NOTE : SORTING OF PROCESSES BEGINS HERE 
@@ -44,6 +51,11 @@ YOUR ENTERED VALUES ARE :
 	Process          : (3)  
 	Arrival Time     : 3
 	Burst Time       : 3
+
+
+	Process          : (4)  
+	Arrival Time     : 4
+	Burst Time       : 4
 
 
 	 NOTE : CALCULATION OF WATITING TIME AND TURN AROUND TIME
@@ -74,11 +86,20 @@ YOUR ENTERED VALUES ARE :
 	Turn Around Time : 3
 
 
+	Process          : (4)  
+	Arrival Time     : 4
+	Burst Time       : 4
+	Waiting Time     : 2
+	Turn Around Time : 6
+
+
 		Priority   : 1.000000
 
 		Priority   : 0.666667
 
 		Priority   : 1.000000
+
+		Priority   : 1.200000
 
 
 	Resultant Values are as follows : 
@@ -87,12 +108,13 @@ YOUR ENTERED VALUES ARE :
 	| Process | Arrival Time | Burst Time |  Waiting Time  |  Turn Around Time  |
 	=============================================================================
 	|  P[1]   |       1      |     1      |        0       |         0          |
+	|  P[4]   |       4      |     4      |        2       |         6          |
 	|  P[3]   |       3      |     3      |        0       |         3          |
 	|  P[2]   |       2      |     2      |        -1      |         1          |
 	=============================================================================
 
 
 =========================================
-|  Average TURN AROUND TIME  : -nan | 
-|  Average WATITING TIME     : -0.333333 | 
+|  Average TURN AROUND TIME  : 2.500000 | 
+|  Average WATITING TIME     : 0.250000 | 
 =========================================
