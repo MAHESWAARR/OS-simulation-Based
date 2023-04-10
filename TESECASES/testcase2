@@ -1,0 +1,98 @@
+SCHEDULING STARTS HERE 
+
+Enter the total no of processes :3
+Please enter the BURST TIME of the Process    (1) : 1
+Please enter the ARRIVAL TIME of the Process  (1) : 1
+Please enter the BURST TIME of the Process    (2) : 2
+Please enter the ARRIVAL TIME of the Process  (2) : 2
+Please enter the BURST TIME of the Process    (3) : 3
+Please enter the ARRIVAL TIME of the Process  (3) : 3
+YOUR ENTERED VALUES ARE :
+
+
+	Process          : (1)  
+	Arrival Time     : 1
+	Burst Time       : 1
+
+
+	Process          : (2)  
+	Arrival Time     : 2
+	Burst Time       : 2
+
+
+	Process          : (3)  
+	Arrival Time     : 3
+	Burst Time       : 3
+
+
+	 NOTE : SORTING OF PROCESSES BEGINS HERE 
+
+	 NOTE : SORTING ENDED ! 
+
+	 UPDATED VALUES ARE AS FOLLOWS
+
+	Process          : (1)  
+	Arrival Time     : 1
+	Burst Time       : 1
+
+
+	Process          : (2)  
+	Arrival Time     : 2
+	Burst Time       : 2
+
+
+	Process          : (3)  
+	Arrival Time     : 3
+	Burst Time       : 3
+
+
+	 NOTE : CALCULATION OF WATITING TIME AND TURN AROUND TIME
+	 NOTE : Constraint : Arrival time <= execution time
+
+
+	 INTERMEDIATE VALUES ARE  : 
+
+
+	Process          : (1)  
+	Arrival Time     : 1
+	Burst Time       : 1
+	Waiting Time     : 0
+	Turn Around Time : 0
+
+
+	Process          : (2)  
+	Arrival Time     : 2
+	Burst Time       : 2
+	Waiting Time     : -1
+	Turn Around Time : 1
+
+
+	Process          : (3)  
+	Arrival Time     : 3
+	Burst Time       : 3
+	Waiting Time     : 0
+	Turn Around Time : 3
+
+
+		Priority   : 1.000000
+
+		Priority   : 0.666667
+
+		Priority   : 1.000000
+
+
+	Resultant Values are as follows : 
+
+	=============================================================================
+	| Process | Arrival Time | Burst Time |  Waiting Time  |  Turn Around Time  |
+	=============================================================================
+	|  P[1]   |       1      |     1      |        0       |         0          |
+	|  P[3]   |       3      |     3      |        0       |         3          |
+	|  P[2]   |       2      |     2      |        -1      |         1          |
+	=============================================================================
+
+
+=========================================
+|  Average TURN AROUND TIME  : -nan | 
+|  Average WATITING TIME     : -0.333333 | 
+=========================================
