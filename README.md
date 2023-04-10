@@ -13,5 +13,6 @@ Write a program to implement such an algorithm. Ensure
 3. The gantt chart is shown as an output.
 4. Calculate individual waiting time and average waiting time.
 
-#Outputs or Testcases
+# Outputs or Testcases
+  
  
